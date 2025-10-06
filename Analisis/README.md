@@ -9,26 +9,31 @@ Terdapat 5 elemen utama pada problem ini:
 4.	cq = number yang menentukan peserta yang dipilih
 5.	dq = number yang menentuka peserta yang dipilih cq untuk mundur sejumlah dq langkah
 setiap ronde akan ada perubahan tertentu posisi peserta. 
+
 Format input berupa :
 1.	baris pertama N dan Q, dimana N adalah banyaknya peserta dan Q adalah banyaknya Ronde.
 2.	Baris kedua berisi Ai dimana menyatakan posisi tiap peserta.
 3.	Baris selanjutnya sebanyak Q baris menyatakan cq dan dq, dimana peserta yang dipilih cq akan mundur sebanyak dq
 Cara menentukan peserta mana yang bergerak setiap ronde adalah dengan mencocokkan antara cq dan urutan peserta. Kecocokan ini berdasarkan dari faktor yang sama. Jadi jika kedua variabel tersebut memiliki faktor yang sama (kecuali 1) maka peserta pada urutan tersebut akan bergerak.
+
 Misal contoh input :
-7 6
+
+
+`7 6
 10 20 30 40 50 60 70
 2 25
 3 36
 100 42
 5 10
 7 70
-1 1000
+1 1000`
 
 
 
 
 
 Maka perhitungannya akan seperti berikut :
+
 Peserta awal :
 
 | peserta |	letak |	Ronde |
