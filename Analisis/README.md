@@ -42,6 +42,7 @@ Peserta awal :
 
 -	Ronde 1 : c1 = 2
 kita cari urutan peserta yang memiliki faktor sama dengan 2. Jumlah peserta ada 7, dari ke-7 angka tersebut yang memiliki faktor 2 adalah : 2,4,6. Maka peserta dengan nomor urut 2,4,6 akan mundur sebanyak 25 langkah.
+
 | peserta |	letak |	ronde |
 |----------|--------|--------|
 | 1 | 10 |  -1 |
@@ -54,6 +55,7 @@ kita cari urutan peserta yang memiliki faktor sama dengan 2. Jumlah peserta ada 
 
 -	Ronde 2 : c2 = 3
 Yang memiliki faktor sama dengan 3 adalah 3 dan 6. Maka peserta dengan nomor urut 3 dan 6 mundur sebanyak 36 langkah
+
 | peserta |	letak |	ronde |
 |----------|--------|--------|
 | 1 |	10 | -1 |
@@ -66,6 +68,7 @@ Yang memiliki faktor sama dengan 3 adalah 3 dan 6. Maka peserta dengan nomor uru
 
 -	Ronde 3 : c3 = 100
 Faktor dari 100 adalah 2 dan 5, angka yang memiliki faktor sama dengan 100 adalah 2,4,5,6. Maka mundur sebanyak 42 langkah
+
 | peserta |	letak |	ronde |
 |----------|--------|--------|
 | 1 |	10 |	-1 |
@@ -78,6 +81,7 @@ Faktor dari 100 adalah 2 dan 5, angka yang memiliki faktor sama dengan 100 adala
 
 -	Ronde 4 : c4 = 5
 Yang memiliki faktor sama dengan 5 adalah nomor urut 5. Maka mundur 10 langkah
+
 | peserta |	letak |	ronde |
 |----------|--------|--------|
 | 1 |	10	 | -1 |
@@ -90,6 +94,7 @@ Yang memiliki faktor sama dengan 5 adalah nomor urut 5. Maka mundur 10 langkah
 
 -	Ronde 5 : c5 = 7
 Yang memiliki faktor sama dengan 7 dalah nomor urut 7, mundur 70 langkah.
+
 | peserta |	letak |	ronde |
 |----------|--------|--------|
 | 1 |	10 | 	-1 |
