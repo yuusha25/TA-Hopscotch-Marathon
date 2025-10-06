@@ -30,6 +30,7 @@ Misal contoh input :
 
 Maka perhitungannya akan seperti berikut :
 Peserta awal :
+
 | peserta |	letak |	Ronde |
 |----------|--------|--------|
 | 1 | 10 | -1 |
@@ -40,7 +41,9 @@ Peserta awal :
 | 6 | 60 | -1 |
 | 7 | 70 | -1 |
 
+
 -	Ronde 1 : c1 = 2
+
 kita cari urutan peserta yang memiliki faktor sama dengan 2. Jumlah peserta ada 7, dari ke-7 angka tersebut yang memiliki faktor 2 adalah : 2,4,6. Maka peserta dengan nomor urut 2,4,6 akan mundur sebanyak 25 langkah.
 
 | peserta |	letak |	ronde |
@@ -53,7 +56,9 @@ kita cari urutan peserta yang memiliki faktor sama dengan 2. Jumlah peserta ada 
 | 6 | 35 | 	-1 |
 | 7 | 70 | 	-1 |
 
+
 -	Ronde 2 : c2 = 3
+
 Yang memiliki faktor sama dengan 3 adalah 3 dan 6. Maka peserta dengan nomor urut 3 dan 6 mundur sebanyak 36 langkah
 
 | peserta |	letak |	ronde |
@@ -66,7 +71,9 @@ Yang memiliki faktor sama dengan 3 adalah 3 dan 6. Maka peserta dengan nomor uru
 | 6 |	0 | 2 |
 | 7 |	70 | -1 |
 
+
 -	Ronde 3 : c3 = 100
+
 Faktor dari 100 adalah 2 dan 5, angka yang memiliki faktor sama dengan 100 adalah 2,4,5,6. Maka mundur sebanyak 42 langkah
 
 | peserta |	letak |	ronde |
@@ -79,7 +86,9 @@ Faktor dari 100 adalah 2 dan 5, angka yang memiliki faktor sama dengan 100 adala
 | 6 |	0 |	2 |
 | 7 |	70 |	-1 |
 
+
 -	Ronde 4 : c4 = 5
+
 Yang memiliki faktor sama dengan 5 adalah nomor urut 5. Maka mundur 10 langkah
 
 | peserta |	letak |	ronde |
@@ -92,7 +101,9 @@ Yang memiliki faktor sama dengan 5 adalah nomor urut 5. Maka mundur 10 langkah
 | 6 |	0 | 	2 |
 | 7 |	70	 | -1 |
 
+
 -	Ronde 5 : c5 = 7
+
 Yang memiliki faktor sama dengan 7 dalah nomor urut 7, mundur 70 langkah.
 
 | peserta |	letak |	ronde |
@@ -105,9 +116,15 @@ Yang memiliki faktor sama dengan 7 dalah nomor urut 7, mundur 70 langkah.
 | 6 |	0	 | 2 |
 | 7 |	0	 | 5 |
 
+
 -	Ronde 6 : c6 = 1
+
 Faktor yang dicari 1 sedangkan 1 ini tidak termasuk dalam constraint faktor yang diminta. Kalaupun c6 > 1 tidak akan ada perubahan pada tabel karena semua tabel sudah terisi kecuali untuk baris ke-1, baris ini sepertinya akan selalu tidak berubah karena dibutuhkan faktor dari 1 dimana kondisi faktor 1 tidak memenuhi, sehingga tidak akan pernah mencapai angka 0
+
 Dengan ini hasil adalah -1,1,2,3,4,2,5
+
 Secara sekilas soal ini terlihat mudah untuk diselesaikan. Kita hanya perlu mengecek urutan peserta disetiap ronde jika cocok maka dilakukan pengurangan dan menyimpan data nya menggunakan array vector ataupun map, terus dilakukan sampai ronde selesai. Namun, yang jadi permasalahannya adalah ketika input nya terlalu besar, hal ini dapat menyebabkan time limit karena harus selalu mengecek semua urutan secara terus menerus. 
+
+
 Maka dari itu perlu dilakukan optimasi untuk mengurangi prosess khususnya saat pengecekan salah satunya menggunakan binary search. Saya masih belum melakukan riset lebih lanjut mengenai tekni optimasi pada permasalahan ini. Untuk progress selanjutnya saya akan mencari referensi terkait teknik optimasi ini.
 
