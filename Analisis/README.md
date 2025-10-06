@@ -19,7 +19,7 @@ Cara menentukan peserta mana yang bergerak setiap ronde adalah dengan mencocokka
 Misal contoh input :
 
 
-``7 6
+```7 6
 
 10 20 30 40 50 60 70
 
@@ -33,7 +33,7 @@ Misal contoh input :
 
 7 70
 
-1 1000``
+1 1000```
 
 
 
